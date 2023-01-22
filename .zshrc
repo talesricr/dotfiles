@@ -14,3 +14,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 alias cr="cargo run"
 alias cw="cargo watch -x run"
+
+eval "$(starship init zsh)"
