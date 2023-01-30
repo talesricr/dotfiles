@@ -12,7 +12,8 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 . "$HOME/.asdf/asdf.sh"
 
+alias la="ls -la"
 alias cr="cargo run"
 alias cw="cargo watch -x run"
 
-eval "$(starship init zsh)"
+# eval "$(starship init zsh)"
