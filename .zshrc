@@ -12,8 +12,10 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 . "$HOME/.asdf/asdf.sh"
 
+alias ls="ls --color=auto"
 alias la="ls -la"
 alias cr="cargo run"
 alias cw="cargo watch -x run"
 
 # eval "$(starship init zsh)"
+eval "$(dircolors ~/.dircolors)"
